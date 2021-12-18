@@ -43,8 +43,10 @@ const PlayerStatus = (props) => {
       <h1>Player Status - Game {props.gameId}</h1>
       <table>
         <thead>
-          <tr>Player Name</tr>
-          <tr>Actions</tr>
+            <tr>
+            <td>Player Name</td>
+            <td>Actions</td>
+            </tr>
         </thead>
         <tbody>
           {/* CONDITION RENDER FOR GAMESTATUS === 1 */}
